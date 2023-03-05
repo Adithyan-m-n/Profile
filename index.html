@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <style>
+
+        .carousel-caption {
+          background-color: rgba(42, 42, 42, 0.5);
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          font-size: larger;
+          color: #fff;
+          text-align: center;
+          padding: 20px;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+          border: 2px solid #fff;
+          }
+          
+        .card-img-top {
+          border-radius: 50%;
+          width:20%;
+          }
+        .card-text{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        .nav-link{color:rgb(141, 15, 15);}
+        .nav-pills{background-color:rgb(227, 247, 255);}
+        #scrollspyHeading1, #scrollspyHeading2, #scrollspyHeading3, #scrollspyHeading4, #scrollspyHeading5, #scrollspyHeading6, #scrollspyHeading7 {background-color: rgb(37, 33, 62);
+          color: rgb(255, 245, 173);
+        }
+        .card{ border: 1px solid red;background-image: url(https://www.enjpg.com/img/2020/abstract-18.jpg);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-attachment: fixed;
+          border: 1px solid #ccc;
+          padding: 10px;
+          }
+        body{background-image: url(https://cdn.wallpapersafari.com/2/6/YQXbkT.jpg);
+          background-position: center;
+          backdrop-filter: blur(10px);
+          background-size: cover;
+          background-attachment: fixed;
+          }
+        header{font-family:Verdana, Geneva, Tahoma, sans-serif; 
+          font-size: 50px;
+          background-color: rgba(69, 94, 236, 0.548);
+          color: aquamarine;
+          }
+        .card-body{background-color: rgba(16, 88, 143, 0.608);
+          padding: 10px;
+        }
+        .card-title{color: antiquewhite;}
+        .card-text{color: rgb(0, 204, 255);font-family:Arial, Helvetica, sans-serif;}
+        .btn-primary{background-color: rgba(94, 36, 175, 0.498);
+          margin: 10px;
+        }
+        .card-button{margin:0cqmax;
+          background-color: rgba(19, 162, 178, 0);
+        }
+        
+        .accordion-body{color: rgb(40, 79, 7);
+          background-color: rgba(44, 178, 167, 0.249);
+        }
+        .accordion-button{color: rgb(206, 255, 171);
+          background-color: rgba(26, 13, 75, 0.839);
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .scroll-body{color: rgb(158, 99, 22);
+          background-color: rgba(139, 108, 250, 0.264);
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          border-radius: 10px;
+          }
+      </style>
+
+        <title>Profile</title>
+    </head>
+    <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+        <div class="card mx-auto w-75"><br>
+            <img src="https://avatars.githubusercontent.com/u/95747791?v=4" class="card-img-top mx-auto d-block img-fluid" alt="Adithyan M Nair" width="10"><br>
+            <div class="card-body" >
+              <h5 class="card-title text-center ">Adithyan M Nair</h5>
+              <p class="card-text text-center">Enthusiastic and diligent artificial intelligence engineer with experience in using algorithms and data structures for
+                college projects and coding platforms. Passionate about developing user-friendly software applications and eager to work
+                in a stimulating and challenging environment that will provide me with advancement opportunities. Currently a part of
+                the Competitive Programming SIG of the ACM club in Amritapuri.</p>
+            </div>
+
+            <p>
+              <div class="card-button mx-auto" >
+                <center>
+                  <a class="btn btn-primary" >
+                    <i class="bi bi-telephone-fill"></i>  8156968623
+                  </a>
+                  <a href="https://github.com/Adithyan-m-n"class="btn btn-primary" >
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/adithyan-m-nair"class="btn btn-primary" >
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                  <a href="https://www.instagram.com/h.a.rlem/"class="btn btn-primary" >
+                    <i class="bi bi-instagram"></i>
+                  </a>
+                  <a class="btn btn-primary" >
+                    <i class="bi bi-envelope"></i> adithyan146@gmail.com
+                  </a>
+                </center>
+              </div>
+            </p>
+            <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 justify-content-center" >
+                <a class="navbar-brand" href="#" ></a>
+                <ul class="nav nav-pills"  >
+                  <li class="nav-item" >
+                    <a class="nav-link" href="#scrollspyHeading1"><b>Education</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading2"><b>Courses</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading3"><b>Projects</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading4"><b>Skills</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading5"><b>Interests</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading6"><b>Languages</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"  href="#scrollspyHeading7"><b>Places Visited</b></a>
+                  </li>
+                </ul>
+              </nav>
+              <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+                <h3 id="scrollspyHeading1" ><center><u>Education</u></center></h3>
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Bachelor of Technology in Computer Science and Engineering (Artificial Intelligence)
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>Amrita Vishwa Vidyapeetham, Amritapuri Campus, Kollam, India </p>
+                          <p>CGPA : 9.05</p>
+                          <p>October 2020 – Present</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Class 12th
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>Greenvalley Public School, Kothamangalam, Kerala, India</p>
+                          <p>Score : 93.2%</p>
+                          <p>2020</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Class 10th
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <p>Greenvalley Public School, Kothamangalam, Kerala, India</p>
+                          <p>Score : 91.4%</p>
+                          <p>2018</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><hr>
+          
+                  <h3 id="scrollspyHeading2" ><center><u>Courses</u></center></h3>
+                  <div class="accordion" id="accordionExample2">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-controls="collapseFour">
+                          Blockchain Business Models
+                        </button>
+                      </h2>
+                      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          <p>Duke University</p>
+                          <p> Course offered by coursera to provide an advanced understanding of the various
+                            blockchain technologies and determine the specific business situations where blockchain
+                            technology can be deployed to solve important problems also, detail the risks presented
+                            by this new technology.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                          Fundamentals of digital marketing
+                        </button>
+                      </h2>
+                      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample2">
+                        <div class="accordion-body">
+                          <p>Interactive Advertising Bureau Europe and The Open University</p>
+                          <p>Course provided by Google Digital Garage to learn the fundamentals of digital marketing.
+                            Helps to develop digital marketing and e-commerce strategies to attract and engage the
+                            customers through digital marketing channels like search, social media, and email and
+                            results in measuring marketing analytics and sharing insight which results in building e-commerce stores, analyzing e-commerce performance, and growing customer loyalty.</p>
+                        </div>
+                      </div>
+                    </div>
+                </div><hr>
+                  <h3 id="scrollspyHeading3" ><center><u>Projects</u></center></h3>
+                  <div class="accordion" id="accordionExample3">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                          Intrusion Detection Robot Using ROS
+                        </button>
+                      </h2>
+                      <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample3">
+                        <div class="accordion-body">
+                          <p>Raspberry Pi in combination with ROS to design four wheeled security robot that can be
+                            controlled by a laptop or a predefined path and it sends the message to the client when an
+                            intruder is detected. Python language along with rospy libraries were used. When a
+                            detection was made, the robot buzzed simultaneously with the computer that was linked,
+                            and the computer that was connected also received a picture, which was the frame from
+                            the video stream where the detection was made.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                          CPU Utilization Monitoring Using Socket Programming
+                        </button>
+                      </h2>
+                      <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample3">
+                        <div class="accordion-body">
+                          <p>Using the concept of socket programming and multithreading to implement GUI for server
+                            and client so as to establish connection between a server and a client in the network and
+                            analyse the client's CPU utilization which includes CPU, disk and ram usage and store it as
+                            a text file in the server machine's local database.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div><hr>
+                    <h3 id="scrollspyHeading4" ><center><u>Skills</u></center></h3>
+                    <div class="scroll-body">
+                    <p>
+                      <ul>
+                        <li>Programming</li>
+                        <li>Teamwork</li>
+                        <li>Flexibility</li>
+                        <li>Critical Thinking</li>
+                        <li>Creativity</li>
+                      </ul>
+                    </p>
+                  </div><hr>
+          
+                    <h3 id="scrollspyHeading5" ><center><u>Interests</u></center></h3>
+                    <div class="scroll-body">
+                    <p>
+                      <ul>
+                        <li>Music</li>
+                        <li>Singing</li>
+                        <li>Travel</li>
+                        <li>Equity Market</li>
+                        <li>Art</li>
+                        <li>Sports</li>
+                      </ul>
+                    </p>
+                  </div><hr>
+          
+                    <h3 id="scrollspyHeading6" ><center><u>Languages</u></center></h3>
+                    <div class="scroll-body">
+                    <p>
+                      <ul>
+                        Proficiency to read, write, understand and speak
+                        <li>Malayalam </li>
+                        <li>Hindi</li>
+                        <li>English</li>
+
+                      </ul>
+                      <ul>
+                        Proficiency to understand and speak
+                        <li>Tamil</li>
+                      </ul>
+                    </p>
+                  </div>
+                    <hr>
+
+                    <h3 id="scrollspyHeading7" ><center><u>Places Visited</u></center></h3>
+                    <p>
+                      <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="https://cms.finnair.com/resource/blob/2574156/a14e037941fbe6646a68cd56a8fea9d0/mumbai-main-data.jpg" class="d-block w-100 " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>MUMBAI</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://wallpaperaccess.com/full/1906270.jpg" class="d-block w-100 " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>BANGALORE</h5>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="https://wallpaperaccess.com/full/2851942.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>OOTY</h5>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </p>
+    </body>
+</html>
