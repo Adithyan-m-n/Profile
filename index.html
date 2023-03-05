@@ -4,6 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <style>
 
         .carousel-caption {
@@ -25,11 +27,13 @@
           border-radius: 50%;
           width:20%;
           }
-        .card-text{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        .card-text{          font-family: 'Raleway', cursive;}
         .nav-link{color:rgb(141, 15, 15);}
         .nav-pills{background-color:rgb(227, 247, 255);}
         #scrollspyHeading1, #scrollspyHeading2, #scrollspyHeading3, #scrollspyHeading4, #scrollspyHeading5, #scrollspyHeading6 {background-color: rgb(37, 33, 62);
           color: rgb(255, 245, 173);
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+          height: 35px;
         }
         .card{ border: 1px solid red;background-image: url(https://www.enjpg.com/img/2020/abstract-18.jpg);
           background-repeat: no-repeat;
@@ -45,11 +49,6 @@
           background-size: cover;
           background-attachment: fixed;
           }
-        header{font-family:Verdana, Geneva, Tahoma, sans-serif; 
-          font-size: 50px;
-          background-color: rgba(69, 94, 236, 0.548);
-          color: aquamarine;
-          }
         .card-body{background-color: rgba(16, 88, 143, 0.608);
           padding: 10px;
         }
@@ -57,26 +56,36 @@
         .card-text{color: rgb(0, 204, 255);font-family:Arial, Helvetica, sans-serif;}
         .btn-primary{background-color: rgba(94, 36, 175, 0.498);
           margin: 10px;
+          border: none;
+          border-radius: 40px;
+          color: rgb(255, 255, 255);
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
         .card-button{margin:0cqmax;
           background-color: rgba(19, 162, 178, 0);
         }
         
-        .accordion-body{color: rgb(40, 79, 7);
-          background-color: rgba(44, 178, 167, 0.249);
+        .accordion-body{color: rgb(29, 53, 9);
+          background-color: rgba(11, 167, 120, 0.249);
         }
         .accordion-button{color: rgb(206, 255, 171);
           background-color: rgba(26, 13, 75, 0.839);
           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        .scroll-body{color: rgb(158, 99, 22);
-          background-color: rgba(139, 108, 250, 0.264);
+        .scroll-body{color: rgb(144, 205, 246);
+          background-color: rgba(7, 9, 19, 0.732);
           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          border-radius: 10px;
+          border-radius: 5px;
           }
           .card2-img-top{
            height: 200px;
            object-fit: cover;
+            }
+          .card2-text{
+            font-family: 'Joti One', cursive;
+            color: aliceblue;
+            font-size: 20px;
+            text-align: center;
             }
       </style>
         <title>Profile</title>
@@ -139,41 +148,8 @@
                 </ul>
               </nav>
               <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-                <div class="container">
-                  <div class="row">
-                    <div class="col-md-4">
-                      <a href="https://adithyan-m-n.github.io/Wordle/">
-                        <div class="card">
-                          <img src="https://static.tnn.in/photo/msid-96582745/96582745.jpg" class="card2-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Card 1 content goes here</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="https://adithyan-m-n.github.io/Tic-Tac-Toe/">
-                        <div class="card">
-                          <img src="https://media.istockphoto.com/id/91227309/photo/crosses-and-noughts-game.jpg?s=612x612&w=0&k=20&c=g023p5gjN4m3RbGwLzs8Kr1lgEcWN9L_VIlmr28yxBg=" class="card2-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Card 2 content goes here</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                    <div class="col-md-4">
-                      <a href="https://adithyan-m-n.github.io/Photo-Album/">
-                        <div class="card">
-                          <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/nature-family-photo-collage-design-template-88ae8647b4efd102c56a8c87f39a3625_screen.jpg?ts=1594620057" class="card2-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Card 3 content goes here</p>
-                          </div>
-                        </div>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <h3 id="scrollspyHeading1" ><center><u>Education</u></center></h3>
+                
+                <h3 id="scrollspyHeading1" ><center>Education</center></h3>
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
@@ -219,7 +195,7 @@
                     </div>
                   </div><hr>
           
-                  <h3 id="scrollspyHeading2" ><center><u>Courses</u></center></h3>
+                  <h3 id="scrollspyHeading2" ><center>Courses</center></h3>
                   <div class="accordion" id="accordionExample2">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingFour">
@@ -254,7 +230,42 @@
                       </div>
                     </div>
                  </div><hr>
-                  <h3 id="scrollspyHeading3" ><center><u>Projects</u></center></h3>
+                  <h3 id="scrollspyHeading3" ><center>Projects</center></h3>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <a href="https://adithyan-m-n.github.io/Wordle/">
+                          <div class="card">
+                            <img src="https://static.tnn.in/photo/msid-96582745/96582745.jpg" class="card2-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card2-text">WORDLE</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-4">
+                        <a href="https://adithyan-m-n.github.io/Tic-Tac-Toe/">
+                          <div class="card">
+                            <img src="https://media.istockphoto.com/id/91227309/photo/crosses-and-noughts-game.jpg?s=612x612&w=0&k=20&c=g023p5gjN4m3RbGwLzs8Kr1lgEcWN9L_VIlmr28yxBg=" class="card2-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card2-text">TIC-TAC-TOE</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-4">
+                        <a href="https://adithyan-m-n.github.io/Photo-Album/">
+                          <div class="card">
+                            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/nature-family-photo-collage-design-template-88ae8647b4efd102c56a8c87f39a3625_screen.jpg?ts=1594620057" class="card2-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card2-text">PHOTO ALBUM</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
                   <div class="accordion" id="accordionExample3">
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingFour">
@@ -289,7 +300,7 @@
                       </div>
                     </div>
                   </div><hr>
-                    <h3 id="scrollspyHeading4" ><center><u>Skills</u></center></h3>
+                    <h3 id="scrollspyHeading4" ><center>Skills</center></h3>
                     <div class="scroll-body">
                     <p>
                       <ul>
@@ -302,7 +313,7 @@
                     </p>
                   </div><hr>
           
-                    <h3 id="scrollspyHeading5" ><center><u>Interests</u></center></h3>
+                    <h3 id="scrollspyHeading5" ><center>Interests</center></h3>
                     <div class="scroll-body">
                     <p>
                       <ul>
@@ -316,7 +327,7 @@
                     </p>
                   </div><hr>
           
-                    <h3 id="scrollspyHeading6" ><center><u>Languages</u></center></h3>
+                    <h3 id="scrollspyHeading6" ><center>Languages</center></h3>
                     <div class="scroll-body">
                     <p>
                       <ul>
